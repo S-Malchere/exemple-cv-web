@@ -10,8 +10,18 @@ body {
 }
   
 header {
+    display: flex;
     justify-content: space-between;
     background-color: burlywood;
+}
+
+nav {
+    font-size: 1.5em;
+}
+
+.contact {
+    display: flex;
+    margin: 10px;
 }
 
 main {
@@ -21,15 +31,6 @@ main {
 footer {
     padding-top: 5px;
     background-color: burlywood;
-}
-
-.contact {
-    display: flex;
-    margin: 10px;
-}
-
-nav {
-    font-size: 1.5em;
 }
 
 .lien-CV {
@@ -57,11 +58,12 @@ nav {
     justify-content: center;
 }
 
+.colonnes-parcours {
+    display: flex;
+    justify-content: space-around;
+}
+
 .separateur {
     border-bottom: dotted thick;
     margin-bottom: 15px;
-}
-
-.loisir {
-    display: flex;
 }
